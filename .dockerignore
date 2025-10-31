@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs and runtime data
+*.log
+logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts (if any)
+dist
+build
+coverage
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Version control and CI/CD
+.idea
+.git
+.gitignore
+.gitattributes
+.github
+.gitlab-ci.yml
+
+# Editor & OS files
+.DS_Store
+*.swp
+*.swo
+.vscode
+.idea
+*.bak
+Thumbs.db
+
+# Docker/OpenShift build files that shouldn’t go inside image
+openshift/
+docker-compose.yml
+Dockerfile.dev
+README.md
+test
+tests
+__tests__
+docs
+
+# Cache
+.npm
+.cache
