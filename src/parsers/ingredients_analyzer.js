@@ -1,7 +1,6 @@
 import * as fs from "node:fs";
 import { readFile, writeFile } from "fs/promises";
 import { GoogleGenAI } from "@google/genai";
-import puppeteer from "puppeteer";
 
 /**
  * Extract unique elements from a comma-separated file
@@ -34,57 +33,6 @@ async function extractUniqueElements(inputPath, outputPath) {
 		console.error("Error processing file:", error.message);
 		throw error;
 	}
-}
-
-/**
- * Fetches content from a URL
- */
-async function fetchWebContent(url) {
-	let browser;
-	try {
-		browser = await puppeteer.launch({
-			browser: "firefox",
-			headless: true,
-		});
-		const page = await browser.newPage();
-		await page.goto(url, {
-			waitUntil: "networkidle0",
-			timeout: 7500,
-		});
-		await page.waitForSelector("body", { timeout: 5000 });
-
-		const html = await page.content();
-		return html;
-	} catch (error) {
-		console.error(`Error fetching ${url}:`, error.message);
-		return null;
-	} finally {
-		if (browser) {
-			await browser.close();
-		}
-	}
-}
-
-/**
- * Scrapes data from provided links
- */
-async function scrapeIngredientData(links) {
-	const scrapedData = {};
-
-	for (const [source, url] of Object.entries(links)) {
-		if (url) {
-			console.log(`Fetching data from ${source}: ${url}`);
-			const content = await fetchWebContent(url);
-			if (content) {
-				scrapedData[source] = {
-					url: url,
-					content: content.substring(0, 50000),
-				};
-			}
-		}
-	}
-
-	return scrapedData;
 }
 
 /**
@@ -148,33 +96,26 @@ Return ONLY valid JSON in this exact format (no markdown, no extra text):
 /**
  * Analyze ingredient data
  */
-async function analyzeWithGemini(apiKey, scrapedData, ingredientName) {
+async function analyzeWithGemini(resourceLinks, ingredientName) {
 	const genAI = new GoogleGenAI({});
 
-	// Prepare the raw data text
-	let rawDataText = `Ingredient Name: ${ingredientName}\n\n`;
-	rawDataText += `Scraped Data:\n`;
-
-	for (const [source, data] of Object.entries(scrapedData)) {
-		rawDataText += `\n--- ${source.toUpperCase()} ---\n`;
-		rawDataText += `URL: ${data.url}\n`;
-		rawDataText += `Content Preview:\n${data.content}\n`;
-	}
-
-	if (Object.keys(scrapedData).length === 0) {
-		rawDataText += `\nNo web data available. Please use your knowledge about "${ingredientName}" to provide the analysis. Mark this as (own knowledge) in the name field.`;
-	}
-
-	console.log("\n=== RAW DATA SENT TO GEMINI ===");
-	console.log(rawDataText);
-	console.log("=== END RAW DATA ===\n");
-
 	const systemPrompt = generateSystemPrompt();
+	const resourceLinksText = `
+		Ingredient: ${ingredientName}
+
+		Available resource links:
+		- ECHA: ${resourceLinks.echa || "Not provided"}
+		- CosIng: ${resourceLinks.cosIng || "Not provided"}
+		- PubChem: ${resourceLinks.pubchem || "Not provided"}
+		- Other: ${resourceLinks.other || "Not provided"}
+		`.trim();
 
 	const contents = [
 		{ text: systemPrompt },
-		{ text: rawDataText },
-		{ text: "Analyze the above data and return the JSON response:" },
+		{ text: resourceLinksText },
+		{
+			text: "The analysis should be based only on the links mentioned above and return the JSON response:",
+		},
 	];
 
 	try {
@@ -185,6 +126,7 @@ async function analyzeWithGemini(apiKey, scrapedData, ingredientName) {
 
 		const responseText = response.text;
 
+		console.log(contents);
 		console.log("\n=== GEMINI OUTPUT ===");
 		console.log(responseText);
 		console.log("=== END GEMINI OUTPUT ===\n");
@@ -200,7 +142,6 @@ async function analyzeWithGemini(apiKey, scrapedData, ingredientName) {
  * Parses the Gemini response and cleans the JSON
  */
 function parseGeminiResponse(responseText) {
-	// Remove markdown code
 	let cleanedText = responseText.trim();
 	cleanedText = cleanedText.replace(/```json\n?/g, "");
 	cleanedText = cleanedText.replace(/```\n?/g, "");
@@ -252,36 +193,32 @@ async function saveToFile(
  *
  * @param {string} ingredientName - Name of the ingredient
  * @param {Object} links - Object with links: { echa: 'url', cosIng: 'url', pubchem: 'url', other: 'url' }
- * @param {string} apiKey - Google Gemini API key
  */
-async function processIngredient(ingredientName, links = {}, apiKey) {
+async function processIngredient(ingredientName, links = {}) {
 	console.log(`\n${"=".repeat(60)}`);
 	console.log(`Processing ingredient: ${ingredientName}`);
 	console.log("=".repeat(60));
 
 	try {
-		// Scrape data from provided links
-		let scrapedData = {};
+		let resource_links;
 
 		if (links.echa || links.cosIng || links.pubchem || links.other) {
-			scrapedData = await scrapeIngredientData(links);
+			resource_links = links;
 		} else {
 			// Try to find links automatically
 			console.log("No links provided. Searching for ingredient data...");
-			const foundLinks = await findIngredientLinks(ingredientName);
-			scrapedData = await scrapeIngredientData(foundLinks);
+			resource_links = await findIngredientLinks(ingredientName);
 		}
 
 		// Analyze with Gemini
 		const geminiResponse = await analyzeWithGemini(
-			apiKey,
-			scrapedData,
+			resource_links,
 			ingredientName,
 		);
 		const ingredientData = parseGeminiResponse(geminiResponse);
 
 		// Add metadata about sources
-		if (Object.keys(scrapedData).length === 0) {
+		if (Object.keys(resource_links).length === 0) {
 			ingredientData.name = `${ingredientData.name} (own knowledge)`;
 		}
 
@@ -309,16 +246,22 @@ async function processIngredient(ingredientName, links = {}, apiKey) {
 }
 
 async function main() {
-	await processIngredient("sodium fluoride", {
-		echa: "https://chem.echa.europa.eu/100.028.789/overview?searchText=sodium%20fluoride",
-		cosIng: "https://ec.europa.eu/growth/tools-databases/cosing/details/87608",
-		pubchem: "https://pubchem.ncbi.nlm.nih.gov/compound/5235",
-		other: "",
-	});
+	const ingredientsList = JSON.parse(
+		await readFile("raw_ingr_with_links.json", "utf-8"),
+	);
+
+	for (const item of ingredientsList) {
+		const { name, link_echa, link_cosIng, link_pubchem, link_other } = item;
+		await processIngredient(name, {
+			echa: link_echa || "",
+			cosIng: link_cosIng || "",
+			pubchem: link_pubchem || "",
+			other: link_other || "",
+		});
+	}
+
+	await new Promise((res) => setTimeout(res, 5000));
 }
 
-// Uncomment to run:
-//extractUniqueElements('raw_ingredients.txt', 'processed_ingredients.txt');
 main().catch(console.error);
-
-export { processIngredient, scrapeIngredientData, analyzeWithGemini };
+export { processIngredient, analyzeWithGemini };
