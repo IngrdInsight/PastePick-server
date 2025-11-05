@@ -1,5 +1,5 @@
 import { getClient, query } from "../database/connection.js";
-import { processIngredientsFromText } from "./ai/ingredient.extractor.service.js";
+import { processIngredientsFromText } from "./ingredient.extractor.service.js";
 import { generateEmbeddings } from "./ai/embedding.service.js";
 import { analyzeToothpaste } from "./ai/analyzer.service.js";
 import { uploadImageToAllas } from "./image.service.js";
