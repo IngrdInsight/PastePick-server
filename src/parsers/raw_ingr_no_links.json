@@ -1,0 +1,1157 @@
+[
+  {
+    "name": "sodium fluoride",
+    "cas_number": "7681-49-4",
+    "link_echa": "https://chem.echa.europa.eu/100.028.789/overview?searchText=sodium%20fluoride",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5235",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/87608"
+  },
+  {
+    "name": "sorbitol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydrated silica",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-12",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium lauryl sulfate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "flavor",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "cellulose gum",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium hydroxide",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "tetrasodium pyrophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "phosphoric acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "cocamidopropyl betaine",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium saccharin",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "benzyl alcohol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mica",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "blue 1",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "titanium dioxide",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "glycerin",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium bicarbonate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium hydroxide",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "xanthan gum",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "stannous fluoride",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium nitrate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "yellow 10",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "xylitol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "aroma",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium lauroyl sarcosinate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 47005",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 42051",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "limonene",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium benzoate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "dicalcium phosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydroxyapatite (nano)",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "silica",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-8",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "trimagnesium phosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydrolyzed conchiolin protein",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "glycyrrhetinic acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "cetylpyridinium chloride",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "lauryl diethylenediaminoglycine hcl",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "pvp",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "butylene glycol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "alcohol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "pyridoxine hcl",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "camellia sinensis leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "chamomillarecutilla extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "salvia officinalis leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "alumina",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-6",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "anise alcohol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "pentasodium triphosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "carbomer",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "eugenol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "carrageenan",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "red 30",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "allantoin",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "panthenol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "citric acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium chloride",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "glycolipids",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "stevia rebaudiana extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "maltodextrin",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium sorbate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sorbic acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 77268:1",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-32",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "pvm/ma copolymer",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "zinc gluconate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 77891",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 74160",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 74260",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydroxyethylcellulose",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "olaflur",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-40 hydrogenated castor oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium saracchin",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "chitosan",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium gluconate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "stannous chloride",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sucralose",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "cinnamal",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "olaflur (amine fluoride)",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "water (aqua)",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "poloxamer 407",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "fd&c blue no. 1 (ci 42090)",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "fd&c yellow no. 5 (ci 19140)",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "calcium silicate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "trisodium phosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium phosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg-60",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "synthetic fluorphlogopite",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "polyacrylic acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "tin oxide",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sorbit",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "xylit",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "caolin clay",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "aloe barbensis (aloe vera) leaf juice",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium coco sulphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mentha piperita leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "salvia officinalis (sage) leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "melissa officinalis leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "salvadora persica bark/root extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "disodium cocoyl glutamate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "maris sal",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium cocoyl glutamate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium cocoyl glutamate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium hydroxyde",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium hexametaphosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium citrate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "menthol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mentha viridis leaf oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "carvone",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "anethole",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "poloxamer 105",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "calcium pyrophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "peg/ppg-116/66 copolymer",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium caroate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "disodium pyrophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "magnesium carbonate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium monofluorophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "calcium carbonate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "tetrapotassium pyrophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium methyl cocoyl taurate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 73360",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "propylene glycol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "zinc lactate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "lauryl glucoside",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "zinc citrate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "papain",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "bromelain",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "glyceryl caprylate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mentha arvensis leaf oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mentha piperita oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "calcium glycerophosphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "stevia rebaudiana leaf/stem extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "caprylhydroxamic acid",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "lactobacillus lysate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium metabisulfite",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "steviol glycosides",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "linalool",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "cl 77492",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium citrate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 77491",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "aloe barbadensis leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "commiphora myrrha gum oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "mentha arvensis oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "magnolia officinalis bark extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "magnesium aluminium silicate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "phenoxyethanol",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "potassium chloride",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium sulphate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "stevioside",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "acacia senegal gum",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "lactobacillus",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "eucalyptus oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "zeolite",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium coco-sulfate",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "chamomilla recutita (matricaria) flower extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "citrus aurantium dulcis (orange) peel oil",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "zingiber officinale (ginger) root extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "citral",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydroxypropyl methyl cellulose",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "disodium edta",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "arginine",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "betaine",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "olive leaf extract",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  },
+  {
+    "name": "hydroxypropyl methylcellulose",
+    "cas_number": null,
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": null
+  }
+]
