@@ -1,0 +1,1073 @@
+[
+  {
+    "name": "sodium fluoride",
+    "cas_number": "7681-49-4",
+    "link_echa": "https://chem.echa.europa.eu/substance-search?searchText=7681-49-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7681-49-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37869"
+  },
+  {
+    "name": "sorbitol",
+    "cas_number": "50-70-4",
+    "link_echa": "https://chem.echa.europa.eu/100.000.056/overview?searchText=50-70-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/50-70-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38191"
+  },
+  {
+    "name": "hydrated silica",
+    "cas_number": "10279-57-9",
+    "link_echa": "https://chem.echa.europa.eu/100.130.425/overview?searchText=10279-57-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/10279-57-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/76428"
+  },
+  {
+    "name": "peg-12",
+    "cas_number": "6790-09-6",
+    "link_echa": "https://chem.echa.europa.eu/100.027.145/overview?searchText=6790-09-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/6790-09-6",
+    "link_cosIng": null
+  },
+  {
+    "name": "sodium lauryl sulfate",
+    "cas_number": "151-21-3",
+    "link_echa": "https://chem.echa.europa.eu/100.005.263/overview?searchText=151-21-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/151-21-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37946"
+  },
+  {
+    "name": "cellulose gum",
+    "cas_number": "9000-11-7",
+    "link_echa": "https://chem.echa.europa.eu/100.120.377/overview?searchText=9000-11-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9000-11-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75394"
+  },
+  {
+    "name": "potassium hydroxide",
+    "cas_number": "1310-58-3",
+    "link_echa": "https://chem.echa.europa.eu/100.013.802/overview?searchText=1310-58-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1310-58-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36981"
+  },
+  {
+    "name": "tetrasodium pyrophosphate",
+    "cas_number": "7722-88-5",
+    "link_echa": "https://chem.echa.europa.eu/100.028.880/overview?searchText=7722-88-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7722-88-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38571"
+  },
+  {
+    "name": "phosphoric acid",
+    "cas_number": "7664-38-2",
+    "link_echa": "https://chem.echa.europa.eu/100.118.962/overview?searchText=7664-38-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7664-38-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36546"
+  },
+  {
+    "name": "cocamidopropyl betaine",
+    "cas_number": "61789-40-0",
+    "link_echa": "https://chem.echa.europa.eu/100.213.335/overview?searchText=61789-40-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61789-40-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75231"
+  },
+  {
+    "name": "sodium saccharin",
+    "cas_number": "128-44-9",
+    "link_echa": "https://chem.echa.europa.eu/100.004.443/overview?searchText=128-44-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/128-44-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80014"
+  },
+  {
+    "name": "benzyl alcohol",
+    "cas_number": "100-51-6",
+    "link_echa": "https://chem.echa.europa.eu/100.002.600/overview?searchText=100-51-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/100-51-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32153"
+  },
+  {
+    "name": "mica",
+    "cas_number": "12001-26-2",
+    "link_echa": "https://chem.echa.europa.eu/100.123.963/overview?searchText=12001-26-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/12001-26-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35360"
+  },
+  {
+    "name": "blue 1",
+    "cas_number": "3844-45-9",
+    "link_echa": "https://chem.echa.europa.eu/100.513.043/overview?searchText=3844-45-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/3844-45-9",
+    "link_cosIng": null
+  },
+  {
+    "name": "titanium dioxide",
+    "cas_number": "13463-67-7",
+    "link_echa": "https://chem.echa.europa.eu/100.033.327/overview?searchText=13463-67-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/13463-67-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/97726"
+  },
+  {
+    "name": "glycerin",
+    "cas_number": "56-81-5",
+    "link_echa": "https://chem.echa.europa.eu/100.000.263/overview?searchText=56-81-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/56-81-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34040"
+  },
+  {
+    "name": "sodium bicarbonate",
+    "cas_number": "144-55-8",
+    "link_echa": "https://chem.echa.europa.eu/100.005.122/overview?searchText=144-55-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/144-55-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37736"
+  },
+  {
+    "name": "sodium hydroxide",
+    "cas_number": "1310-73-2",
+    "link_echa": "https://chem.echa.europa.eu/100.013.805/overview?searchText=1310-73-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1310-73-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37890"
+  },
+  {
+    "name": "xanthan gum",
+    "cas_number": "11138-66-2",
+    "link_echa": "https://chem.echa.europa.eu/100.031.255/overview?searchText=11138-66-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/11138-66-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80699"
+  },
+  {
+    "name": "stannous fluoride",
+    "cas_number": "7783-47-3",
+    "link_echa": "https://chem.echa.europa.eu/100.029.090/overview?searchText=7783-47-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7783-47-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38231"
+  },
+  {
+    "name": "potassium nitrate",
+    "cas_number": "7757-79-1",
+    "link_echa": "https://chem.echa.europa.eu/100.028.926/overview?searchText=7757-79-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7757-79-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37002"
+  },
+  {
+    "name": "yellow 10",
+    "cas_number": "8004-92-0",
+    "link_echa": "https://chem.echa.europa.eu/100.116.526/overview?searchText=8004-92-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8004-92-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/100075"
+  },
+  {
+    "name": "xylitol",
+    "cas_number": "87-99-0",
+    "link_echa": "https://chem.echa.europa.eu/100.001.626/overview?searchText=87-99-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/87-99-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38920"
+  },
+  {
+    "name": "sodium lauroyl sarcosinate",
+    "cas_number": "137-16-6",
+    "link_echa": "https://chem.echa.europa.eu/100.004.801/overview?searchText=137-16-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/137-16-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37941"
+  },
+  {
+    "name": "ci 47005",
+    "cas_number": "8004-92-0",
+    "link_echa": "https://chem.echa.europa.eu/100.116.526/overview?searchText=8004-92-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8004-92-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/100075"
+  },
+  {
+    "name": "ci 42051",
+    "cas_number": "3536-49-0",
+    "link_echa": "https://chem.echa.europa.eu/100.020.522/overview?searchText=3536-49-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/3536-49-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32753"
+  },
+  {
+    "name": "limonene",
+    "cas_number": "5989-27-5",
+    "link_echa": "https://chem.echa.europa.eu/100.025.284/overview?searchText=5989-27-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5989-27-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/87624"
+  },
+  {
+    "name": "sodium benzoate",
+    "cas_number": "532-32-1",
+    "link_echa": "https://chem.echa.europa.eu/100.007.760/overview?searchText=532-32-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/532-32-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37735"
+  },
+  {
+    "name": "dicalcium phosphate",
+    "cas_number": "7757-93-9",
+    "link_echa": "https://chem.echa.europa.eu/100.028.933/overview?searchText=7757-93-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7757-93-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75666"
+  },
+  {
+    "name": "hydroxyapatite (nano)",
+    "cas_number": "1306-06-5",
+    "link_echa": "https://chem.echa.europa.eu/100.013.769/overview?searchText=1306-06-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1306-06-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34479"
+  },
+  {
+    "name": "silica",
+    "cas_number": "7631-86-9",
+    "link_echa": "https://chem.echa.europa.eu/100.171.064/overview?searchText=7631-86-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7631-86-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/78845"
+  },
+  {
+    "name": "peg-8",
+    "cas_number": "25322-68-3",
+    "link_echa": null,
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/25322-68-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/77303"
+  },
+  {
+    "name": "trimagnesium phosphate",
+    "cas_number": "7757-87-1",
+    "link_echa": "https://chem.echa.europa.eu/100.028.931/overview?searchText=7757-87-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7757-87-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38739"
+  },
+  {
+    "name": "hydrolyzed conchiolin protein",
+    "cas_number": "169590-57-2",
+    "link_echa": null,
+    "link_pubchem": null,
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/56554"
+  },
+  {
+    "name": "glycyrrhetinic acid",
+    "cas_number": "471-53-4",
+    "link_echa": "https://chem.echa.europa.eu/100.006.769/overview?searchText=471-53-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/471-53-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34152"
+  },
+  {
+    "name": "cetylpyridinium chloride",
+    "cas_number": "123-03-5",
+    "link_echa": "https://chem.echa.europa.eu/100.004.177/overview?searchText=123-03-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/123-03-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32626"
+  },
+  {
+    "name": "lauryl diethylenediaminoglycine hcl",
+    "cas_number": "18205-85-1",
+    "link_echa": "https://chem.echa.europa.eu/100.038.253/overview?searchText=18205-85-1",
+    "link_pubchem": null,
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/56963"
+  },
+  {
+    "name": "pvp",
+    "cas_number": "9003-39-8",
+    "link_echa": "https://chem.echa.europa.eu/100.184.844/overview?searchText=9003-39-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9003-39-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37364"
+  },
+  {
+    "name": "butylene glycol",
+    "cas_number": "107-88-0",
+    "link_echa": "https://chem.echa.europa.eu/100.003.209/overview?searchText=107-88-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/107-88-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74756"
+  },
+  {
+    "name": "alcohol",
+    "cas_number": "64-17-5",
+    "link_echa": "https://chem.echa.europa.eu/100.000.526/overview?searchText=64-17-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/64-17-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/31401"
+  },
+  {
+    "name": "pyridoxine hcl",
+    "cas_number": "58-56-0",
+    "link_echa": "https://chem.echa.europa.eu/100.000.351/overview?searchText=58-56-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/58-56-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37388"
+  },
+  {
+    "name": "camellia sinensis leaf extract",
+    "cas_number": "84650-60-2",
+    "link_echa": "https://chem.echa.europa.eu/100.141.452/overview?searchText=84650-60-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84650-60-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/55224"
+  },
+  {
+    "name": "chamomillarecutilla extract",
+    "cas_number": "84082-60-0",
+    "link_echa": "https://chem.echa.europa.eu/100.074.527/overview?searchText=84082-60-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84082-60-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/55295"
+  },
+  {
+    "name": "salvia officinalis leaf extract",
+    "cas_number": "84082-79-1",
+    "link_echa": "https://chem.echa.europa.eu/100.074.545/overview?searchText=84082-79-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84082-79-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80200"
+  },
+  {
+    "name": "alumina",
+    "cas_number": "1344-28-1",
+    "link_echa": "https://chem.echa.europa.eu/100.207.718/overview?searchText=1344-28-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1344-28-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74191"
+  },
+  {
+    "name": "peg-6",
+    "cas_number": "25322-68-3",
+    "link_echa": null,
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/25322-68-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/77118"
+  },
+  {
+    "name": "anise alcohol",
+    "cas_number": "105-13-5",
+    "link_echa": "https://chem.echa.europa.eu/100.002.976/overview?searchText=105-13-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/105-13-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74308"
+  },
+  {
+    "name": "pentasodium triphosphate",
+    "cas_number": "7758-29-4",
+    "link_echa": "https://chem.echa.europa.eu/100.028.944/overview?searchText=7758-29-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7758-29-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36486"
+  },
+  {
+    "name": "carbomer",
+    "cas_number": "9007-20-9",
+    "link_echa": "https://chem.echa.europa.eu/100.113.198/overview?searchText=9007-20-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9007-20-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74820"
+  },
+  {
+    "name": "eugenol",
+    "cas_number": "97-53-0",
+    "link_echa": "https://chem.echa.europa.eu/100.002.355/overview?searchText=97-53-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/97-53-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/33910"
+  },
+  {
+    "name": "carrageenan",
+    "cas_number": "9000-07-1",
+    "link_echa": "https://chem.echa.europa.eu/100.029.556/overview?searchText=9000-07-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9000-07-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/88730"
+  },
+  {
+    "name": "red 30",
+    "cas_number": "5858-81-1",
+    "link_echa": "https://chem.echa.europa.eu/100.024.998/overview?searchText=5858-81-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5858-81-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/93730"
+  },
+  {
+    "name": "allantoin",
+    "cas_number": "97-59-6",
+    "link_echa": "https://chem.echa.europa.eu/100.002.358/overview?searchText=97-59-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/97-59-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/31411"
+  },
+  {
+    "name": "panthenol",
+    "cas_number": "81-13-0",
+    "link_echa": "https://chem.echa.europa.eu/100.001.208/overview?searchText=81-13-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/81-13-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35839"
+  },
+  {
+    "name": "citric acid",
+    "cas_number": "77-92-9",
+    "link_echa": "https://chem.echa.europa.eu/100.205.812/overview?searchText=77-92-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/77-92-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32858"
+  },
+  {
+    "name": "sodium chloride",
+    "cas_number": "7647-14-5",
+    "link_echa": "https://chem.echa.europa.eu/100.028.726/overview?searchText=sodium%20chloride",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-14-5",
+    "link_cosIng": null
+  },
+  {
+    "name": "stevia rebaudiana extract",
+    "cas_number": "91722-21-3",
+    "link_echa": "https://chem.echa.europa.eu/100.085.803/overview?searchText=91722-21-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/91722-21-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/58821"
+  },
+  {
+    "name": "maltodextrin",
+    "cas_number": "9050-36-6",
+    "link_echa": "https://chem.echa.europa.eu/100.029.934/overview?searchText=9050-36-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9050-36-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35142"
+  },
+  {
+    "name": "potassium sorbate",
+    "cas_number": "24634-61-5",
+    "link_echa": "https://chem.echa.europa.eu/100.205.816/overview?searchText=24634-61-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/24634-61-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37025"
+  },
+  {
+    "name": "sorbic acid",
+    "cas_number": "110-44-1",
+    "link_echa": "https://chem.echa.europa.eu/100.003.427/overview?searchText=110-44-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/110-44-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38173"
+  },
+  {
+    "name": "ci 77268:1",
+    "cas_number": "1339-82-8",
+    "link_echa": "https://chem.echa.europa.eu/100.014.245/overview?searchText=1339-82-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1339-82-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32822"
+  },
+  {
+    "name": "peg-32",
+    "cas_number": "25322-68-3",
+    "link_echa": "https://chem.echa.europa.eu/100.167.649/overview?searchText=25322-68-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/25322-68-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/78305"
+  },
+  {
+    "name": "pvm/ma copolymer",
+    "cas_number": "9011-16-9",
+    "link_echa": "https://chem.echa.europa.eu/100.111.639/overview?searchText=9011-16-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9011-16-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79129"
+  },
+  {
+    "name": "zinc gluconate",
+    "cas_number": "4468-02-6",
+    "link_echa": "https://chem.echa.europa.eu/100.022.489/overview?searchText=zinc%20gluconate",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/4468-02-6",
+    "link_cosIng": null
+  },
+  {
+    "name": "ci 77891",
+    "cas_number": "13463-67-7",
+    "link_echa": "https://chem.echa.europa.eu/100.171.063/overview?searchText=13463-67-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/13463-67-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/97171"
+  },
+  {
+    "name": "ci 74160",
+    "cas_number": "147-14-8",
+    "link_echa": "https://chem.echa.europa.eu/100.005.169/overview?searchText=147-14-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/147-14-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32799"
+  },
+  {
+    "name": "ci 74260",
+    "cas_number": "6373-74-6",
+    "link_echa": "https://chem.echa.europa.eu/100.026.292/overview?searchText=6373-74-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/6373-74-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/31618"
+  },
+  {
+    "name": "hydroxyethylcellulose",
+    "cas_number": "9004-62-0",
+    "link_echa": "https://chem.echa.europa.eu/100.116.562/overview?searchText=9004-62-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9004-62-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/76845"
+  },
+  {
+    "name": "olaflur",
+    "cas_number": "6818-37-7",
+    "link_echa": "https://chem.echa.europa.eu/100.027.174/overview?searchText=6818-37-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/6818-37-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35640"
+  },
+  {
+    "name": "peg-40 hydrogenated castor oil",
+    "cas_number": "61788-85-0",
+    "link_echa": "https://chem.echa.europa.eu/100.105.643/overview?searchText=61788-85-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61788-85-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/78452"
+  },
+  {
+    "name": "sodium saracchin",
+    "cas_number": "128-44-9",
+    "link_echa": "https://chem.echa.europa.eu/100.004.443/overview?searchText=128-44-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/128-44-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80014"
+  },
+  {
+    "name": "chitosan",
+    "cas_number": "9012-76-4",
+    "link_echa": "https://chem.echa.europa.eu/100.122.259/overview?searchText=9012-76-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9012-76-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75065"
+  },
+  {
+    "name": "sodium gluconate",
+    "cas_number": "527-07-1",
+    "link_echa": "https://chem.echa.europa.eu/100.220.571/overview?searchText=527-07-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/527-07-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79485"
+  },
+  {
+    "name": "stannous chloride",
+    "cas_number": "7772-99-8",
+    "link_echa": "https://chem.echa.europa.eu/100.028.971/overview?searchText=7772-99-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7772-99-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38230"
+  },
+  {
+    "name": "sucralose",
+    "cas_number": "56038-13-2",
+    "link_echa": "https://chem.echa.europa.eu/100.054.484/overview?searchText=56038-13-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/56038-13-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/59924"
+  },
+  {
+    "name": "cinnamal",
+    "cas_number": "104-55-2",
+    "link_echa": "https://chem.echa.europa.eu/100.002.922/overview?searchText=104-55-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/104-55-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32846"
+  },
+  {
+    "name": "water (aqua)",
+    "cas_number": "7732-18-5",
+    "link_echa": "https://chem.echa.europa.eu/100.205.267/overview?searchText=7732-18-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7732-18-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/92472"
+  },
+  {
+    "name": "poloxamer 407",
+    "cas_number": "9003-11-6",
+    "link_echa": "https://chem.echa.europa.eu/substance-search?searchText=9003-11-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9003-11-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36666"
+  },
+  {
+    "name": "fd&c blue no. 1 (ci 42090)",
+    "cas_number": "3844-45-9",
+    "link_echa": "https://chem.echa.europa.eu/100.021.219/overview?searchText=3844-45-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/3844-45-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32756"
+  },
+  {
+    "name": "fd&c yellow no. 5 (ci 19140)",
+    "cas_number": "1934-21-0",
+    "link_echa": "https://chem.echa.europa.eu/100.512.755/overview?searchText=1934-21-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1934-21-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32737"
+  },
+  {
+    "name": "calcium silicate",
+    "cas_number": "1344-95-2",
+    "link_echa": "https://chem.echa.europa.eu/100.014.282/overview?searchText=1344-95-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1344-95-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32345"
+  },
+  {
+    "name": "trisodium phosphate",
+    "cas_number": "7601-54-9",
+    "link_echa": "https://chem.echa.europa.eu/100.028.645/overview?searchText=7601-54-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7601-54-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38776"
+  },
+  {
+    "name": "sodium phosphate",
+    "cas_number": "7601-54-9",
+    "link_echa": "https://chem.echa.europa.eu/100.028.645/overview?searchText=7601-54-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7601-54-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38776"
+  },
+  {
+    "name": "peg-60",
+    "cas_number": "61788-85-0",
+    "link_echa": "https://chem.echa.europa.eu/100.105.643/overview?searchText=61788-85-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/61788-85-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/77219"
+  },
+  {
+    "name": "synthetic fluorphlogopite",
+    "cas_number": "12003-38-2",
+    "link_echa": "https://chem.echa.europa.eu/100.031.283/overview?searchText=12003-38-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/12003-38-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80520"
+  },
+  {
+    "name": "polyacrylic acid",
+    "cas_number": "9003-01-4",
+    "link_echa": "https://chem.echa.europa.eu/100.115.375/overview?searchText=9003-01-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9003-01-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/78561"
+  },
+  {
+    "name": "tin oxide",
+    "cas_number": "18282-10-5",
+    "link_echa": "https://chem.echa.europa.eu/100.038.311/overview?searchText=18282-10-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/18282-10-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80260"
+  },
+  {
+    "name": "sorbit",
+    "cas_number": "50-70-4",
+    "link_echa": "https://chem.echa.europa.eu/100.000.056/overview?searchText=50-70-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/50-70-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38191"
+  },
+  {
+    "name": "caolin clay",
+    "cas_number": "1332-58-7",
+    "link_echa": "https://chem.echa.europa.eu/100.100.108/overview?searchText=1332-58-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1332-58-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34795"
+  },
+  {
+    "name": "aloe barbensis (aloe vera) leaf juice",
+    "cas_number": " 85507-69-3 / 94349-62-9 ",
+    "link_echa": "https://chem.echa.europa.eu/100.079.418/overview?searchText=85507-69-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/85507-69-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/54347"
+  },
+  {
+    "name": "sodium coco sulphate",
+    "cas_number": "68955-19-1",
+    "link_echa": "https://chem.echa.europa.eu/100.066.578/overview?searchText=68955-19-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68955-19-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37946"
+  },
+  {
+    "name": "melissa officinalis leaf extract",
+    "cas_number": "84082-61-1",
+    "link_echa": "https://chem.echa.europa.eu/100.074.528/overview?searchText=84082-61-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84082-61-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35212"
+  },
+  {
+    "name": "disodium cocoyl glutamate",
+    "cas_number": "68187-30-4",
+    "link_echa": "https://chem.echa.europa.eu/100.062.785/overview?searchText=%0968187-30-4%20",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68187-30-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75827"
+  },
+  {
+    "name": "maris sal",
+    "cas_number": "7647-14-5",
+    "link_echa": "https://chem.echa.europa.eu/100.028.726/overview?searchText=7647-14-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7647-14-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37813"
+  },
+  {
+    "name": "sodium cocoyl glutamate",
+    "cas_number": "68187-32-6",
+    "link_echa": "https://chem.echa.europa.eu/100.062.787/overview?searchText=68187-32-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68187-32-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37832"
+  },
+  {
+    "name": "sodium cocoyl glutamate",
+    "cas_number": "68187-32-6",
+    "link_echa": "https://chem.echa.europa.eu/100.062.787/overview?searchText=68187-32-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68187-32-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37832"
+  },
+  {
+    "name": "sodium hydroxyde",
+    "cas_number": "1310-73-2",
+    "link_echa": "https://chem.echa.europa.eu/100.013.805/overview?searchText=1310-73-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1310-73-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37890"
+  },
+  {
+    "name": "sodium hexametaphosphate",
+    "cas_number": "10124-56-8",
+    "link_echa": "https://chem.echa.europa.eu/100.214.884/overview?searchText=10124-56-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/10124-56-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79493"
+  },
+  {
+    "name": "sodium citrate",
+    "cas_number": "68-04-2",
+    "link_echa": "https://chem.echa.europa.eu/100.000.614/overview?searchText=68-04-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68-04-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37816"
+  },
+  {
+    "name": "menthol",
+    "cas_number": "89-78-1",
+    "link_echa": "https://chem.echa.europa.eu/100.001.763/overview?searchText=89-78-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/89-78-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35228"
+  },
+  {
+    "name": "mentha viridis leaf oil",
+    "cas_number": "84696-51-5",
+    "link_echa": "https://chem.echa.europa.eu/100.076.023/overview?searchText=84696-51-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84696-51-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/57942"
+  },
+  {
+    "name": "carvone",
+    "cas_number": "99-49-0",
+    "link_echa": "https://chem.echa.europa.eu/100.002.508/overview?searchText=99-49-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/99-49-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74838"
+  },
+  {
+    "name": "anethole",
+    "cas_number": "104-46-1",
+    "link_echa": "https://chem.echa.europa.eu/100.002.914/overview?searchText=104-46-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/104-46-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74302"
+  },
+  {
+    "name": "poloxamer 105",
+    "cas_number": "9003-11-6",
+    "link_echa": "https://chem.echa.europa.eu/100.118.740/overview?searchText=9003-11-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9003-11-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80123"
+  },
+  {
+    "name": "calcium pyrophosphate",
+    "cas_number": "7790-76-3",
+    "link_echa": "https://chem.echa.europa.eu/100.029.292/overview?searchText=7790-76-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7790-76-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74915"
+  },
+  {
+    "name": "peg/ppg-116/66 copolymer",
+    "cas_number": "9003-11-6",
+    "link_echa": "https://chem.echa.europa.eu/100.118.740/overview?searchText=9003-11-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9003-11-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/57106"
+  },
+  {
+    "name": "potassium caroate",
+    "cas_number": "10058-23-8",
+    "link_echa": "https://chem.echa.europa.eu/100.030.158/overview?searchText=10058-23-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/10058-23-8",
+    "link_cosIng": null
+  },
+  {
+    "name": "disodium pyrophosphate",
+    "cas_number": "7758-16-9",
+    "link_echa": "https://chem.echa.europa.eu/100.028.941/overview?searchText=7758-16-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7758-16-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/75795"
+  },
+  {
+    "name": "magnesium carbonate",
+    "cas_number": "546-93-0",
+    "link_echa": "https://chem.echa.europa.eu/100.008.106/overview?searchText=546-93-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/546-93-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/77618"
+  },
+  {
+    "name": "sodium monofluorophosphate",
+    "cas_number": "10163-15-2",
+    "link_echa": "https://chem.echa.europa.eu/100.030.381/overview?searchText=10163-15-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/10163-15-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/87604"
+  },
+  {
+    "name": "calcium carbonate",
+    "cas_number": "471-34-1",
+    "link_echa": "https://chem.echa.europa.eu/100.006.765/overview?searchText=471-34-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/471-34-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32314"
+  },
+  {
+    "name": "tetrapotassium pyrophosphate",
+    "cas_number": "7320-34-5",
+    "link_echa": "https://chem.echa.europa.eu/100.027.986/overview?searchText=7320-34-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7320-34-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80751"
+  },
+  {
+    "name": "sodium methyl cocoyl taurate",
+    "cas_number": "12765-39-8",
+    "link_echa": "https://chem.echa.europa.eu/100.123.200/overview?searchText=12765-39-8",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/12765-39-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79777"
+  },
+  {
+    "name": "ci 73360",
+    "cas_number": "2379-74-0",
+    "link_echa": "https://chem.echa.europa.eu/100.017.422/overview?searchText=2379-74-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/2379-74-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32794"
+  },
+  {
+    "name": "propylene glycol",
+    "cas_number": "57-55-6",
+    "link_echa": "https://chem.echa.europa.eu/100.417.077/overview?searchText=57-55-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/57-55-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37269"
+  },
+  {
+    "name": "zinc lactate",
+    "cas_number": "16039-53-5",
+    "link_echa": "https://chem.echa.europa.eu/100.036.510/overview?searchText=16039-53-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/16039-53-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38964"
+  },
+  {
+    "name": "lauryl glucoside",
+    "cas_number": "110615-47-9",
+    "link_echa": "https://chem.echa.europa.eu/100.123.133/overview?searchText=110615-47-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/110615-47-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/56967"
+  },
+  {
+    "name": "zinc citrate",
+    "cas_number": "5990-32-9",
+    "link_echa": "https://chem.echa.europa.eu/100.121.410/overview?searchText=5990-32-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5990-32-9",
+    "link_cosIng": null
+  },
+  {
+    "name": "papain",
+    "cas_number": "9001-73-4",
+    "link_echa": "https://chem.echa.europa.eu/100.029.649/overview?searchText=9001-73-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9001-73-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35846"
+  },
+  {
+    "name": "bromelain",
+    "cas_number": "9001-00-7",
+    "link_echa": "https://chem.echa.europa.eu/100.029.599/overview?searchText=9001-00-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9001-00-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/54967"
+  },
+  {
+    "name": "glyceryl caprylate",
+    "cas_number": "26402-26-6",
+    "link_echa": "https://chem.echa.europa.eu/100.043.320/overview?searchText=26402-26-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/26402-26-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34049"
+  },
+  {
+    "name": "mentha arvensis leaf oil",
+    "cas_number": "90063-97-1",
+    "link_echa": "https://chem.echa.europa.eu/100.081.839/overview?searchText=90063-97-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/90063-97-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/96196"
+  },
+  {
+    "name": "mentha piperita oil",
+    "cas_number": "8006-81-3",
+    "link_echa": "https://chem.echa.europa.eu/100.126.669/overview?searchText=8006-81-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8006-81-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/86971"
+  },
+  {
+    "name": "calcium glycerophosphate",
+    "cas_number": "27214-00-2",
+    "link_echa": "https://chem.echa.europa.eu/100.043.920/overview?searchText=27214-00-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/27214-00-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74900"
+  },
+  {
+    "name": "stevia rebaudiana leaf/stem extract",
+    "cas_number": "91722-21-3",
+    "link_echa": "https://chem.echa.europa.eu/100.085.803/overview?searchText=91722-21-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/139174-88-8",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/58821"
+  },
+  {
+    "name": "caprylhydroxamic acid",
+    "cas_number": "7377-03-9",
+    "link_echa": "https://chem.echa.europa.eu/100.028.124/overview?searchText=7377-03-9",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7377-03-9",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/86262"
+  },
+  {
+    "name": "sodium metabisulfite",
+    "cas_number": "7681-57-4",
+    "link_echa": "https://chem.echa.europa.eu/100.028.991/overview?searchText=7681-57-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7681-57-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37956"
+  },
+  {
+    "name": "steviol glycosides",
+    "cas_number": "57817-89-7",
+    "link_echa": "https://chem.echa.europa.eu/100.055.414/overview?searchText=57817-89-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/57817-89-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79199"
+  },
+  {
+    "name": "linalool",
+    "cas_number": "78-70-6",
+    "link_echa": "https://chem.echa.europa.eu/100.001.032/overview?searchText=78-70-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/78-70-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35016"
+  },
+  {
+    "name": "cl 77492",
+    "cas_number": "51274-00-1",
+    "link_echa": "https://chem.echa.europa.eu/100.051.890/overview?searchText=51274-00-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/51274-00-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/31177"
+  },
+  {
+    "name": "potassium citrate",
+    "cas_number": "866-84-2",
+    "link_echa": "https://chem.echa.europa.eu/100.011.596/overview?searchText=866-84-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/866-84-2",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36949"
+  },
+  {
+    "name": "ci 77491",
+    "cas_number": "1309-37-1",
+    "link_echa": "https://chem.echa.europa.eu/100.013.790/overview?searchText=1309-37-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1309-37-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32829"
+  },
+  {
+    "name": "aloe barbadensis leaf extract",
+    "cas_number": "85507-69-3",
+    "link_echa": "https://chem.echa.europa.eu/100.079.418/overview?searchText=85507-69-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/85507-69-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/54346"
+  },
+  {
+    "name": "mentha arvensis oil",
+    "cas_number": "68917-18-0",
+    "link_echa": "https://chem.echa.europa.eu/100.111.474/overview?searchText=68917-18-0",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68917-18-0",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/57860"
+  },
+  {
+    "name": "magnesium aluminium silicate",
+    "cas_number": "1327-43-1",
+    "link_echa": "https://chem.echa.europa.eu/100.014.072/overview?searchText=1327-43-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1327-43-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/35080"
+  },
+  {
+    "name": "phenoxyethanol",
+    "cas_number": "122-99-6",
+    "link_echa": "https://chem.echa.europa.eu/100.004.173/overview?searchText=122-99-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/122-99-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36522"
+  },
+  {
+    "name": "potassium chloride",
+    "cas_number": "7447-40-7",
+    "link_echa": "https://chem.echa.europa.eu/100.207.258/overview?searchText=7447-40-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7447-40-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/36948"
+  },
+  {
+    "name": "sodium sulphate",
+    "cas_number": "7757-82-6",
+    "link_echa": "https://chem.echa.europa.eu/100.215.944/overview?searchText=7757-82-6",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/7757-82-6",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/38093"
+  },
+  {
+    "name": "stevioside",
+    "cas_number": "57817-89-7",
+    "link_echa": "https://chem.echa.europa.eu/100.055.414/overview?searchText=57817-89-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/57817-89-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/79199"
+  },
+  {
+    "name": "acacia senegal gum",
+    "cas_number": "9000-01-5",
+    "link_echa": "https://chem.echa.europa.eu/100.029.551/overview?searchText=9000-01-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9000-01-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/54244"
+  },
+  {
+    "name": "lactobacillus",
+    "cas_number": "68333-14-2",
+    "link_echa": "https://chem.echa.europa.eu/100.110.946/overview?searchText=68333-14-2",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/68333-14-2",
+    "link_cosIng": null
+  },
+  {
+    "name": "eucalyptus oil",
+    "cas_number": "8000-48-4",
+    "link_echa": "https://chem.echa.europa.eu/100.116.165/overview?searchText=8000-48-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8000-48-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/98790"
+  },
+  {
+    "name": "zeolite",
+    "cas_number": "1318-02-1",
+    "link_echa": "https://chem.echa.europa.eu/100.110.564/overview?searchText=1318-02-1",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/1318-02-1",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/80740"
+  },
+  {
+    "name": "sodium coco-sulfate",
+    "cas_number": "97375-27-4",
+    "link_echa": "https://chem.echa.europa.eu/100.096.939/overview?searchText=97375-27-4",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/97375-27-4",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/37829"
+  },
+  {
+    "name": "chamomilla recutita (matricaria) flower extract",
+    "cas_number": "84649-86-5",
+    "link_echa": "https://chem.echa.europa.eu/100.075.853/overview?searchText=84649-86-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84649-86-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/54548"
+  },
+  {
+    "name": "citrus aurantium dulcis (orange) peel oil",
+    "cas_number": "84929-31-7",
+    "link_echa": "https://chem.echa.europa.eu/100.214.954/overview?searchText=84929-31-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/84929-31-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/85121"
+  },
+  {
+    "name": "citral",
+    "cas_number": "5392-40-5",
+    "link_echa": "https://chem.echa.europa.eu/100.023.994/overview?searchText=5392-40-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5392-40-5",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/32857"
+  },
+  {
+    "name": "hydroxypropyl methyl cellulose",
+    "cas_number": "9004-65-3",
+    "link_echa": "https://chem.echa.europa.eu/100.115.379/overview?searchText=9004-65-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/9004-65-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34537"
+  },
+  {
+    "name": "disodium edta",
+    "cas_number": "139-33-3",
+    "link_echa": "https://chem.echa.europa.eu/100.004.872/overview?searchText=139-33-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/139-33-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/33604"
+  },
+  {
+    "name": "arginine",
+    "cas_number": "74-79-3",
+    "link_echa": "https://chem.echa.europa.eu/100.000.738/overview?searchText=74-79-3",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/74-79-3",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74314"
+  },
+  {
+    "name": "betaine",
+    "cas_number": "107-43-7",
+    "link_echa": "https://chem.echa.europa.eu/100.003.174/overview?searchText=107-43-7",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/107-43-7",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/74520"
+  },
+  {
+    "name": "olive leaf extract",
+    "cas_number": "8060-29-5",
+    "link_echa": "https://chem.echa.europa.eu/100.112.288/overview?searchText=8060-29-5",
+    "link_pubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/8060-29-5#section=Structures",
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/104139"
+  },
+  {
+    "name": "hydroxypropyl methylcellulose",
+    "cas_number": "9004-65-3",
+    "link_echa": "https://chem.echa.europa.eu/100.115.379/overview?searchText=9004-65-3",
+    "link_pubchem": null,
+    "link_cosIng": "https://ec.europa.eu/growth/tools-databases/cosing/details/34537"
+  }
+]
