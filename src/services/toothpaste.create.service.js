@@ -1,6 +1,10 @@
 import { getClient, query } from "../database/connection.js";
 import { processIngredientsFromText } from "./ingredient.extractor.service.js";
-import { generateEmbeddings } from "./ai/embedding.service.js";
+import {
+	fuzzyFindSimilarToothpaste,
+	generateEmbeddings,
+	resetFuzzyCache,
+} from "./ai/embedding.service.js";
 import { analyzeToothpaste } from "./ai/analyzer.service.js";
 import { uploadImageToAllas } from "./image.service.js";
 
@@ -17,31 +21,18 @@ export async function createToothpaste({
 	image,
 	image_mimetype,
 }) {
-	const client = await getClient();
+	const dbClient = await getClient();
 
 	try {
 		console.log("gotten values", name, brand, ingredients_raw, image_mimetype);
 
 		// 1. Check if similar toothpaste exists by name embedding
-		const nameEmbedding = await generateEmbeddings([name]);
-		const similarCheck = await client.query(
-			`
-            SELECT id,
-                   name,
-                   brand,
-                   1 - (name_embedding <=> $1::vector) AS similarity
-            FROM toothpastes
-            WHERE 1 - (name_embedding <=> $1::vector) > 0.9
-            ORDER BY similarity DESC
-            LIMIT 1
-        `,
-			[JSON.stringify(nameEmbedding[0])],
-		);
+		const existing_toothpaste = await fuzzyFindSimilarToothpaste(name);
 
-		if (similarCheck.rows.length > 0) {
-			await client.query("ROLLBACK");
+		if (existing_toothpaste) {
+			await dbClient.query("ROLLBACK");
 			throw new Error(
-				`Similar toothpaste already exists: ${similarCheck.rows[0].name} by ${similarCheck.rows[0].brand}`,
+				`Similar toothpaste already exists: ${existing_toothpaste}`,
 			);
 		}
 
@@ -49,31 +40,33 @@ export async function createToothpaste({
 		const ingredients = await processIngredientsFromText(ingredients_raw);
 
 		// 3. Upload and process image to get URL
-		const imageUrl = await uploadImageToAllas(image, image_mimetype);
+		const image_data = await uploadImageToAllas(image, image_mimetype);
 
 		// 4. Analyze toothpaste
 		const analysis = await analyzeToothpaste({
 			name,
 			brand,
 			ingredients,
-			imageUrl,
+			image: image_data.url,
 		});
 
+		console.log("analysis", image_data);
+
 		// 5. Insert toothpaste into database
-		const toothpasteResult = await client.query(
+		const toothpasteResult = await dbClient.query(
 			`
-            INSERT INTO toothpastes (name, brand, image_url, overall_score, score_updated_at,
-                                     name_embedding, is_whitening, for_sensitive_teeth,
+            INSERT INTO toothpastes (name, brand, image_url, image_embedding, overall_score, score_updated_at,
+            						is_whitening, for_sensitive_teeth,
                                      is_fluoride_free, is_natural, for_kids)
-            VALUES ($1, $2, $3, $4, NOW(), $5::vector, $6, $7, $8, $9, $10)
+            VALUES ($1, $2, $3, $4::vector, $5, NOW(), $6, $7, $8, $9, $10)
             RETURNING *
         `,
 			[
 				name,
 				brand,
-				imageUrl,
+				image_data.url,
+				`[${image_data.embedding.join(",")}]`,
 				analysis.overall_score,
-				JSON.stringify(nameEmbedding[0].embedding),
 				analysis.is_whitening,
 				analysis.for_sensitive_teeth,
 				analysis.is_fluoride_free,
@@ -86,7 +79,7 @@ export async function createToothpaste({
 
 		// 6. Insert toothpaste-ingredient relationships
 		for (const ingredient of ingredients) {
-			await client.query(
+			await dbClient.query(
 				`
                 INSERT INTO toothpaste_ingredients (toothpaste_id, ingredient_id, concentration_percentage)
                 VALUES ($1, $2, $3)
@@ -100,7 +93,8 @@ export async function createToothpaste({
 			);
 		}
 
-		await client.query("COMMIT");
+		await dbClient.query("COMMIT");
+		resetFuzzyCache();
 	} catch (error) {
 		console.log(error);
 	}

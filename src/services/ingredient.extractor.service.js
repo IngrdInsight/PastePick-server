@@ -1,8 +1,7 @@
 import {
-	findSimilarIngredient,
-	generateEmbeddings,
+	fuzzyFindSimilarIngredient,
 	insertIngredient,
-} from "ai/embedding.service.js";
+} from "./ai/embedding.service.js";
 
 /**
  * Process ingredients from text: embed, lookup, and insert if needed
@@ -10,23 +9,19 @@ import {
  * @returns {Promise<Array>} Array of processed ingredients with database info
  */
 export async function processIngredientsFromText(ingredientsText) {
-	const embeddings = await generateEmbeddings(ingredientsText);
 	const processedIngredients = [];
 
 	for (let i = 0; i < ingredientsText.length; i++) {
 		const ingredientName = ingredientsText[i];
-		const embedding = embeddings[i];
 
 		console.log(`Processing ingredient: ${ingredientName}`);
 
-		const existingIngredient = await findSimilarIngredient(embedding);
+		const existingIngredient = await fuzzyFindSimilarIngredient(ingredientName);
 
 		let ingredientData;
 
 		if (existingIngredient) {
-			console.log(
-				`Found existing: ${existingIngredient.name} (distance: ${existingIngredient.distance})`,
-			);
+			console.log(`Found existing: ${existingIngredient.name}`);
 			ingredientData = {
 				id: existingIngredient.id,
 				name: existingIngredient.name,
@@ -40,8 +35,10 @@ export async function processIngredientsFromText(ingredientsText) {
 				original_name: ingredientName,
 			};
 		} else {
-			console.log(`  + Adding new ingredient: ${ingredientName}`);
-			const newIngredient = await insertIngredient(ingredientName, embedding);
+			console.log(
+				`  + Adding new ingredient: ${ingredientName}, existing: ${existingIngredient}`,
+			);
+			const newIngredient = await insertIngredient(ingredientName);
 			ingredientData = {
 				id: newIngredient.id,
 				name: newIngredient.name,
