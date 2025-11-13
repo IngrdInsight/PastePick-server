@@ -24,8 +24,6 @@ export async function createToothpaste({
 	const dbClient = await getClient();
 
 	try {
-		console.log("gotten values", name, brand, ingredients_raw, image_mimetype);
-
 		// 1. Check if similar toothpaste exists by name embedding
 		const existing_toothpaste = await fuzzyFindSimilarToothpaste(name);
 
@@ -49,8 +47,6 @@ export async function createToothpaste({
 			ingredients,
 			image: image_data.url,
 		});
-
-		console.log("analysis", image_data);
 
 		// 5. Insert toothpaste into database
 		const toothpasteResult = await dbClient.query(
