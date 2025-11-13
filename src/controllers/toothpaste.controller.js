@@ -58,7 +58,7 @@ export async function getToothpasteByIdHandler(request, reply) {
 
 export async function createToothpasteHandler(request, reply) {
 	try {
-		const file = await request.body.image;
+		const file = await request.body.file;
 		if (!file) {
 			return reply
 				.code(400)
