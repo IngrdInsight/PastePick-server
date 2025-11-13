@@ -38,6 +38,7 @@ export async function db_initialization() {
 				brand VARCHAR(255),
 				description TEXT,
 				image_url VARCHAR(500) NOT NULL,
+				image_embedding vector(512),
 				overall_score DECIMAL(3,1),
 				score_updated_at TIMESTAMP,
 				name_embedding vector(3072),
