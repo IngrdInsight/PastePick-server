@@ -1,7 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
 import { TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT } from "./analysis_system_prompt.js";
+import { Mistral } from "@mistralai/mistralai";
 
 const genAI = new GoogleGenAI({});
+const client = new Mistral({ apiKey: process.env.MISTRAL_API_KEY });
 
 /**
  * Analyze toothpaste to generate overall score and characteristics
@@ -16,20 +18,22 @@ export async function analyzeToothpaste(data) {
 	try {
 		const { name, brand, ingredients } = data;
 
-		const response = await genAI.models.generateContent({
-			model: "gemini-2.5-flash",
-			contents: [
-				TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT,
-				{ ingredients: ingredients },
+		const chatResponse = await client.chat.complete({
+			model: "mistral-medium-latest",
+			messages: [
+				{ role: "system", content: TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT },
+				{ role: "user", content: JSON.stringify({ ingredients: ingredients }) },
 			],
 		});
 
-		const match = response.text.match(/```json([\s\S]*?)```/);
+		const responseText = chatResponse.choices[0].message.content;
+
+		const match = responseText.match(/```json([\s\S]*?)```/);
 		let jsonString;
 		if (match) {
 			jsonString = match[1].trim();
 		} else {
-			jsonString = match.trim();
+			jsonString = responseText.trim();
 		}
 		const analysis = JSON.parse(jsonString);
 
@@ -49,8 +53,7 @@ export async function analyzeToothpaste(data) {
 			Math.min(10, validatedAnalysis.overall_score),
 		);
 
-		console.log("prompt", prompt);
-		console.log("response", response.text);
+		console.log("response", responseText);
 		console.log(
 			`Analysis complete - Score: ${validatedAnalysis.overall_score}/10`,
 		);
@@ -66,5 +69,6 @@ export async function analyzeToothpaste(data) {
 		return validatedAnalysis;
 	} catch (error) {
 		console.error("Error analyzing toothpaste:", error);
+		throw error;
 	}
 }
