@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/IngrdInsight/PastePick-server/compare/v1.0.0...v1.1.0) (2025-11-21)
+
+
+### Features
+
+* add getGeneralStats endpoint ([f697ac5](https://github.com/IngrdInsight/PastePick-server/commit/f697ac58a75d61c4aad633e5fd5437487b77ef81))
+
 ## 1.0.0 (2025-11-13)
 
 
