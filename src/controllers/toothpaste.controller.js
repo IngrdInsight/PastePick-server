@@ -1,6 +1,30 @@
 import { getAllToothpastes } from "../services/toothpaste.getAll.service.js";
 import { createToothpaste } from "../services/toothpaste.create.service.js";
 import { getToothpasteById } from "../services/toothpaste.getById.service.js";
+import {getGeneralStatsHandler} from "../services/toothpaste.generalStats.service.js";
+
+/**
+ * Get general stats
+ * GET /stats
+ */
+export async function getGeneralStats(request, reply) {
+	try {
+		const stats = await getGeneralStatsHandler();
+
+		return reply.code(200).send({
+			success: true,
+			data: stats,
+		});
+	} catch (error) {
+		request.log.error(error);
+		return reply.code(500).send({
+			success: false,
+			error: "Failed to fetch general stats.",
+			message: error.message,
+		});
+	}
+}
+
 
 /**
  * Get all toothpastes
