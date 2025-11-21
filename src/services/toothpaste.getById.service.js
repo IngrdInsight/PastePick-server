@@ -47,6 +47,9 @@ export async function getToothpasteById(id) {
 				i.evidence_level,
 				i.safety_score,
 				i.regulatory_notes,
+				i.link_echa,
+				i.link_pubchem,
+				i.link_cosIng,
 				i.sources,
 				ti.concentration_percentage
 			FROM ingredients i
