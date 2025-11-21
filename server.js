@@ -1,9 +1,8 @@
-// server.js
 import "dotenv/config";
 import Fastify from "fastify";
-import { db_initialization } from "./src/database/initialization.js";
 import { pool } from "./src/database/connection.js";
 import toothpasteRoutes from "./src/routes/toothpaste.routes.js";
+import statsRoutes from "./src/routes/stats.routes.js";
 import fastifyMultipart from "@fastify/multipart";
 import cors from "@fastify/cors";
 
@@ -19,6 +18,7 @@ await fastify.register(cors, {
 
 fastify.register(fastifyMultipart, { attachFieldsToBody: true });
 fastify.register(toothpasteRoutes, { prefix: "/api/v1" });
+fastify.register(statsRoutes, { prefix: "/api/v1" });
 fastify.get("/health", async () => ({ status: "ok" }));
 
 const start = async () => {
