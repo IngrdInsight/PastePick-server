@@ -96,6 +96,7 @@ export async function insertIngredient(name, embedding) {
 		const result = await dbClient.query(
 			`INSERT INTO ingredients (name, created_at, updated_at)
              VALUES ($1, NOW(), NOW())
+			 ON CONFLICT (name) DO UPDATE SET updated_at = NOW()
              RETURNING id, name`,
 			[name],
 		);
