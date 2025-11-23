@@ -24,19 +24,13 @@ export async function analyzeToothpaste(data) {
 				{ role: "system", content: TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT },
 				{ role: "user", content: JSON.stringify({ ingredients: ingredients }) },
 			],
+			responseFormat: { type: "json_object" },
 		});
 
 		const responseText = chatResponse.choices[0].message.content;
 
-		const match = responseText.match(/```json([\s\S]*?)```/);
-		let jsonString;
-		if (match) {
-			jsonString = match[1].trim();
-		} else {
-			jsonString = responseText.trim();
-		}
-		const analysis = JSON.parse(jsonString);
-
+		const analysis = JSON.parse(responseText);
+		console.log(analysis);
 		// Validate
 		const validatedAnalysis = {
 			overall_score: Number(analysis.overall_score),
