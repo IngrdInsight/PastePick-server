@@ -1,9 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT } from "./analysis_system_prompt.js";
-import { Mistral } from "@mistralai/mistralai";
 
-const genAI = new GoogleGenAI({});
-const client = new Mistral({ apiKey: process.env.MISTRAL_API_KEY });
+const ai = new GoogleGenAI({});
 
 /**
  * Analyze toothpaste to generate overall score and characteristics
@@ -18,16 +16,16 @@ export async function analyzeToothpaste(data) {
 	try {
 		const { name, brand, ingredients } = data;
 
-		const chatResponse = await client.chat.complete({
-			model: "mistral-medium-latest",
-			messages: [
-				{ role: "system", content: TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT },
-				{ role: "user", content: JSON.stringify({ ingredients: ingredients }) },
-			],
-			responseFormat: { type: "json_object" },
+		const response = await ai.models.generateContent({
+			model: "gemini-2.5-flash",
+			contents: JSON.stringify({ ingredients: ingredients }),
+			config: {
+				systemInstruction: TOOTHPASTE_ANALYSIS_SYSTEM_PROMPT,
+				responseMimeType: "application/json",
+			}
 		});
 
-		const responseText = chatResponse.choices[0].message.content;
+		const responseText = response.text;
 
 		const analysis = JSON.parse(responseText);
 		console.log(analysis);
